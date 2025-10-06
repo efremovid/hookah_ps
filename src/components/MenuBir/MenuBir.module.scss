@@ -1,0 +1,13 @@
+.container {
+    inline-size: 100%;
+    block-size: 100vb;
+    padding: 3px;
+    background-color: rgb(191, 191, 191);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.image {
+    border-radius: 5px;
+}

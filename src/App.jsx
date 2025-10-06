@@ -1,0 +1,28 @@
+import { useState } from "react";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./layouts/Header/Header";
+import Main from "./layouts/Main/Main";
+import Home from "./layouts/pages/Home/Home";
+import Birulevo from "./layouts/pages/Birulevo/Birulevo";
+import MenuBir from "./components/MenuBir/MenuBir";
+import RulesBir from "./components/RulesBir/RulesBir";
+
+function App() {
+  return (
+    <div className="content">
+      <BrowserRouter>
+        <Main>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/birulevo" element={<Birulevo />} />
+            <Route path="/birulevo/:menu" element={<MenuBir />} />
+            <Route path="/birulevo/:rules" element={<RulesBir />} />
+          </Routes>
+        </Main>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
