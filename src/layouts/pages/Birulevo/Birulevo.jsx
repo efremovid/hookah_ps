@@ -71,7 +71,7 @@ const Birulevo = () => {
           <h2 className={styles.title}>АКЦИИ</h2>
           <div className={styles.actions}>
             <div className={styles.action}>
-              <h3 className={styles.subTitle}>Кальян за 1400 рублей!</h3>
+              <h3 className={styles.subTitle}>Кальян за 1400 рублей</h3>
               <div className={styles.actionItem}>
                 <p>*По будням с 13:00 до 18:00</p>
                 <p>*Не распространяется на VIP-комнаты</p>
@@ -79,7 +79,7 @@ const Birulevo = () => {
               </div>
             </div>
             <div className={styles.action}>
-              <h3 className={styles.subTitle}>Скидка в день рождения 10%!</h3>
+              <h3 className={styles.subTitle}>Скидка в день рождения 10%</h3>
               <div className={styles.actionItem}>
                 <p>*3 дня до / 3 дня после</p>
                 <p>
