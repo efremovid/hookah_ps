@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BtnGoBack from "../../../components/BtnGoBack/BtnGoBack";
 import styles from "./Birulevo.module.scss";
 import logo from "../../../assets/back/logo.svg";
 import photos from "../../../assets/index";
