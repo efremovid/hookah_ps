@@ -18,9 +18,9 @@ import menuBir5 from "./back/меню бирюлёво/5.png";
 export const menuBirulevo = [menuBir1, menuBir2, menuBir3, menuBir4, menuBir5];
 
 import icon1 from "./back/иконки/gh.png";
-import icon2 from "./back/иконки/inst.png.png";
-import icon3 from "./back/иконки/tg.png.png";
-import icon4 from "./back/иконки/wp.png.png";
+import icon2 from "./back/иконки/inst.png";
+import icon3 from "./back/иконки/tg.png";
+import icon4 from "./back/иконки/wp.png";
 
 export const icons = [
   {
