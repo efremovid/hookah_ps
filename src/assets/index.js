@@ -1,14 +1,3 @@
-// const photos = [
-//   "./src/assets/back/фото заведения/бирюлёво/1.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/2.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/3.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/4.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/5.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/6.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/7.jpg",
-//   "/src/assets/back/фото заведения/бирюлёво/8.jpg",
-// ];
-
 import img1 from "./back/фото заведения/бирюлёво/1.jpg";
 import img2 from "./back/фото заведения/бирюлёво/2.jpg";
 import img3 from "./back/фото заведения/бирюлёво/3.jpg";
@@ -20,29 +9,34 @@ import img8 from "./back/фото заведения/бирюлёво/8.jpg";
 
 const photos = [img1, img2, img3, img4, img5, img6, img7, img8];
 
-export const menuBirulevo = [
-  "/src/assets/back/меню бирюлёво/1.png",
-  "/src/assets/back/меню бирюлёво/2.png",
-  "/src/assets/back/меню бирюлёво/3.png",
-  "/src/assets/back/меню бирюлёво/4.png",
-  "/src/assets/back/меню бирюлёво/5.png",
-];
+import menuBir1 from "./back/меню бирюлёво/1.png";
+import menuBir2 from "./back/меню бирюлёво/2.png";
+import menuBir3 from "./back/меню бирюлёво/3.png";
+import menuBir4 from "./back/меню бирюлёво/4.png";
+import menuBir5 from "./back/меню бирюлёво/5.png";
+
+export const menuBirulevo = [menuBir1, menuBir2, menuBir3, menuBir4, menuBir5];
+
+import icon1 from "./back/иконки/gh.png";
+import icon2 from "./back/иконки/inst.png.png";
+import icon3 from "./back/иконки/tg.png.png";
+import icon4 from "./back/иконки/wp.png.png";
 
 export const icons = [
   {
-    icon: "/src/assets/back/иконки/gh.png",
+    icon: icon1,
     link: "https://github.com/efremovid",
   },
   {
-    icon: "/src/assets/back/иконки/inst.png",
+    icon: icon2,
     link: "https://www.instagram.com/ps_lounge_birulyovo?igsh=aGlndGJremN4N2Yz",
   },
   {
-    icon: "/src/assets/back/иконки/tg.png",
+    icon: icon3,
     link: "https://t.me/ps_lounge",
   },
   {
-    icon: "/src/assets/back/иконки/wp.png",
+    icon: icon4,
     link: "https://wa.me/+79169118504",
   },
 ];
