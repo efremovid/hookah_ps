@@ -1,10 +1,12 @@
-import React from 'react'
-import styles from "./RulesBir.module.scss"
+import React from "react";
+import styles from "./RulesBir.module.scss";
 
 const RulesBir = () => {
   return (
-    <div>RulesBir</div>
-  )
-}
+    <div className={styles.container}>
+      <img className={styles.image} src="/src/assets/back/меню бирюлёво/правила-бир.png" alt="" />
+    </div>
+  );
+};
 
-export default RulesBir
+export default RulesBir;

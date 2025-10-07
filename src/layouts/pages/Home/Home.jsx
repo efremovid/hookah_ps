@@ -12,7 +12,7 @@ const Home = () => {
           Бирюлёво
         </Link>
         <div className={styles.line}></div>
-        <Link className={styles.title} to="/birulevo">
+        <Link className={styles.title} to="/taganka">
           Таганка
         </Link>
       </div>

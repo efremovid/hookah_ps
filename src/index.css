@@ -3,7 +3,7 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
-  font-family: Helvetica;
+  font-family: Roboto;
 }
 
 *,
@@ -96,6 +96,14 @@ input[type='file'] {
 @font-face {
   font-family: "Helvetica";
   src: url(./assets/fonts/HelveticaRegular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Light.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
