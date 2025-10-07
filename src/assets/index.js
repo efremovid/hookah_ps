@@ -15,6 +15,9 @@ import menuBir3 from "./back/меню бирюлёво/3.png";
 import menuBir4 from "./back/меню бирюлёво/4.png";
 import menuBir5 from "./back/меню бирюлёво/5.png";
 
+import rulesBirImg from "./back/меню бирюлёво/правила-бир.png"
+export {rulesBirImg}
+
 export const menuBirulevo = [menuBir1, menuBir2, menuBir3, menuBir4, menuBir5];
 
 import icon1 from "./back/иконки/gh.png";
