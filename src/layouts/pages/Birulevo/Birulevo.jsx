@@ -106,6 +106,7 @@ const Birulevo = () => {
             </a>
           </div>
           <a
+            target="_blank"
             className={styles.address}
             href="https://yandex.ru/maps/org/ps_lounge/172043905233/?indoorLevel=1&ll=37.662506%2C55.603446&z=17.25"
           >
@@ -114,7 +115,7 @@ const Birulevo = () => {
           <div className={styles.line}></div>
           <div className={styles.icons}>
             {icons.map((el) => (
-              <a className={styles.icon} href={el.link}>
+              <a target="_blank" className={styles.icon} href={el.link}>
                 <img src={el.icon} alt="" />
               </a>
             ))}

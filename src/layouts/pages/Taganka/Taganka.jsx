@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Taganka.module.scss";
 import logo from "../../../assets/back/logo.svg";
-import photos from "../../../assets/index";
 import { iconsTag } from "../../../assets/index";
-import Slider from "../../../components/Slider/Slider";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 import { photosTaganka } from "../../../assets/index";
@@ -107,6 +105,7 @@ const Birulevo = () => {
             </a>
           </div>
           <a
+            target="_blank"
             className={styles.address}
             href="https://yandex.ru/maps/213/moscow/?ll=37.668684%2C55.739650&mode=poi&poi%5Bpoint%5D=37.668014%2C55.739698&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D127811263445&utm_source=ntp_chrome&z=19"
           >
