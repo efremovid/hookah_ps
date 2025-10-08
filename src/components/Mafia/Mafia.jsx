@@ -34,7 +34,9 @@ const Mafia = () => {
             <a href="https://t.me/vsemary">
               <FaExternalLinkAlt className={styles.link} />
             </a>
-            <FaRedhat className={styles.hat} />
+            <a target="_blank" href="https://mafia-msk.ru/">
+              <FaRedhat className={styles.hat} />
+            </a>
           </div>
         </div>
       </div>
