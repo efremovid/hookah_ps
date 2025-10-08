@@ -30,6 +30,11 @@
   color: rgb(255, 255, 255);
   letter-spacing: 2px;
   text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+.title:hover {
+ color: rgb(189, 189, 189);
 }
 
 .line {

@@ -1,0 +1,109 @@
+.container {
+  inline-size: 100%;
+
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(11, 11, 11);
+  border: 1px solid rgb(35, 35, 35);
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.subText {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: justify;           
+  hyphens: auto;                    
+  white-space: normal;              
+  font-kerning: none;             
+  letter-spacing: 0.02em; 
+}
+
+.icon {
+  inline-size: 40px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: rgb(127, 127, 127);
+  }
+}
+
+.hat {
+  inline-size: 50px;
+}
+
+.link {
+  inline-size: 30px;
+}
+
+.time {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.line {
+  block-size: 20px;
+  border-left: 1px solid white;
+}
+
+@media (width < 600px) {
+  .days {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .line {
+    block-size: 1px;
+    inline-size: 10%;
+    border-bottom: 1px solid white;
+  }
+
+  .text {
+    gap: 40px;
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+
+  .time {
+    justify-content: center;
+  }
+}

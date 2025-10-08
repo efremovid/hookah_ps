@@ -64,7 +64,7 @@ const Birulevo = () => {
         </section>
         <div className={styles.line}></div>
 
-        <Slider slides={photos} />
+        <Slider photos={photos} />
 
         <section className={styles.actionsMain}>
           <h2 className={styles.title}>АКЦИИ</h2>
@@ -93,7 +93,7 @@ const Birulevo = () => {
           <div className={styles.mainText}>
             <p>Режим работы:</p>
             <p className={styles.address}>пн-чт: 13:00 - 01:00</p>
-            <p className={styles.address}>пн-чт: 14:00 - 03:00</p>
+            <p className={styles.address}>пт-вс: 14:00 - 03:00</p>
           </div>
           <img className={styles.logo} src={logo} alt="" />
           <div className={styles.mainText}>
