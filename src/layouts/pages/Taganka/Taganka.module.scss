@@ -171,7 +171,7 @@
   }
 }
 
-@media (width > 420px) {
+@media (width < 420px) {
   .contacts {
     .line {
       inline-size: 300px;

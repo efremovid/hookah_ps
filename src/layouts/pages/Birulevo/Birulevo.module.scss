@@ -2,7 +2,7 @@
   inline-size: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)),
     url(/src/assets/back/дым.png);
-  background-position: center;
+      background-position: center;
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -162,7 +162,7 @@
   }
 }
 
-@media (width > 420px) {
+@media (width < 420px) {
   .contacts {
     .line {
       inline-size: 300px;
