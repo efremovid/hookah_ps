@@ -31,7 +31,7 @@ const Mafia = () => {
             <p>Суббота</p>
           </div>
           <div className={styles.icons}>
-            <a href="https://web.telegram.org/a/#186944846">
+            <a href="https://t.me/vsemary">
               <FaExternalLinkAlt className={styles.link} />
             </a>
             <FaRedhat className={styles.hat} />
